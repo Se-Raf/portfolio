@@ -1,10 +1,8 @@
-
-const { useState, useEffect } = React;        
+import { AppRouter } from "./router/routes";
 
 const App = () => {
     return (
-        <>
-        </>
+        <AppRouter />
     );
 };
 

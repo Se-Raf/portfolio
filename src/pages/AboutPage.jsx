@@ -1,7 +1,7 @@
-export function HomePage() {
+export function AboutPage() {
     return (
-
-        <>
-        </>
+        <div className="page-container">
+            <h1>About Page</h1>
+        </div>
     )
 }
