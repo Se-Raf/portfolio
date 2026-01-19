@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Senados | Portfolio</title>
+
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        const Background = () => (
+            <div className="background-blobs">
+                <div className="blob blob-1"></div>
+                <div className="blob blob-2"></div>
+                <div className="blob blob-3"></div>
+            </div>
+        );
+
+        const Header = () => (
+            <header>
+                <h1>Rafael C. Senados</h1>
+                <p className="subtitle">API and Web Developer</p>
+            </header>
+        );
+
+        const Contact = () => (
+            <section style={{ animationDelay: '0.1s' }}>
+                <h2>Contact & Address</h2>
+                <div className="contact-grid">
+                    <div className="contact-item">
+                        <i className="fa-solid fa-envelope"></i>
+                        <span>senados.rafael@gmail.com</span>
+                    </div>
+                    <div className="contact-item">
+                        <i className="fa-solid fa-phone"></i>
+                        <span>+639369357834</span>
+                    </div>
+                    <div className="contact-item">
+                        <i className="fa-solid fa-location-dot"></i>
+                        <span>Taguig City, Philippines</span>
+                    </div>
+                    <div className="contact-item">
+                        <i className="fa-brands fa-github"></i>
+                        <span>github.com/Se-Raf</span>
+                    </div>
+                    <div className="contact-item">
+                        <i className="fa-brands fa-linkedin"></i>
+                        <span>linkedin.com/in/rafael-senados</span>
+                    </div>
+                </div>
+            </section>
+        );
+
+        const Introduction = () => (
+            <section style={{ animationDelay: '0.2s' }}>
+                <h2>Introduction</h2>
+                <p>
+                    Experienced API/Web Developer with a strong focus on building secure, high-performance RESTful APIs and responsive web applications. Skilled in integrating third-party services, optimizing Database queries, and implementing robust authentication systems (OAuth2, JWT). Adept at collaborating in agile teams, managing CI/CD pipelines, and maintaining clean, well-documented code to support scalable, maintainable, and user-friendly platforms.
+                </p>
+            </section>
+        );
+
+        const Experience = () => (
+            <section style={{ animationDelay: '0.3s' }}>
+                <h2>Working Experience</h2>
+                <div className="timeline-item">
+                    <div className="timeline-title">Junior API/Web Developer</div>
+                    <div className="timeline-subtitle">TOP.ph | The Orange Company Inc.</div>
+                    <div className="timeline-date">June 2022 - Present</div>
+                    <ul>
+                        <li>Created APIs for the TOP.ph Mobile Application.</li>
+                        <li>Ensured secure and reliable user authentication by managing secret key configurations, monitoring identity services, and resolving authentication-related issues.</li>
+                        <li>Integrated third party APIs such as notifications (SMS, Email, InApp or push notification) and Payments</li>
+                        <li>Explored and integrated performance optimization tools such as Amazon SQS, MQTT, and Redis to improve system responsiveness and scalability.</li>
+                        <li>Created and managed internal NuGet packages to centralize secure business logic and standardized connection methods across company projects.</li>
+                        <li>Performed application updates, release validations, and deployment troubleshooting within Azure DevOps and Docker-based workflows.</li>
+                    </ul>
+                </div>
+                <div className="timeline-item">
+                    <div className="timeline-title">API/Web Developer Intern</div>
+                    <div className="timeline-subtitle">TOP.ph | The Orange Company Inc.</div>
+                    <div className="timeline-date">April - June 2022</div>
+                    <ul>
+                        <li>Learned basic structures and practices that match the needs of the company.</li>
+                        <li>Encoded Data for testing and actual launch of the application.</li>
+                    </ul>
+                </div>
+            </section>
+        );
+
+        const Education = () => (
+            <section style={{ animationDelay: '0.4s' }}>
+                <h2>Education</h2>
+                <div className="timeline-item">
+                    <div className="timeline-title">Bachelor of Science in Information Technology (BSIT)</div>
+                    <div className="timeline-subtitle">Polytechnic University of the Philippines - Taguig Branch</div>
+                    <div className="timeline-date">2018 - 2022</div>
+                    <p>
+                        Explored different programming languages, data structures and algorithms. Among the languages are Python, PHP, Java, C++, and Cobol.
+                    </p>
+                </div>
+            </section>
+        );
+
+        const TechStack = () => (
+            <section style={{ animationDelay: '0.5s' }}>
+                <h2>Tech Stack</h2>
+                <div className="tech-grid">
+                    {['React', 'JavaScript (ES6+)', 'TypeScript', 'Node.js', 'HTML5', 'CSS3', 'Git', 'Python', 'SQL', 'AWS'].map((tech, index) => (
+                        <span key={index} className="tech-tag">{tech}</span>
+                    ))}
+                </div>
+            </section>
+        );
+
+        const App = () => {
+            return (
+                <>
+                    <Background />
+                    <div className="container">
+                        <Header />
+                        <Contact />
+                        <Introduction />
+                        <Experience />
+                        <Education />
+                        <TechStack />
+                    </div>
+                </>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>
