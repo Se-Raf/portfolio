@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Experience from './pages/Experience';
@@ -12,8 +12,8 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
+    <Router basename="/portfolio">
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
