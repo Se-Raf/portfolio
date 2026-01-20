@@ -7,11 +7,13 @@ import TechStack from './pages/TechStack';
 import Contact from './pages/Contact';
 import Certification from './pages/Certification';
 import NotFoundPage from './pages/NotFoundPage';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
