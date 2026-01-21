@@ -7,14 +7,13 @@ import TechStack from './pages/TechStack';
 import Contact from './pages/Contact';
 import Certification from './pages/Certification';
 import NotFoundPage from './pages/NotFoundPage';
-import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <Router basename="/portfolio">
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route index element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Project />} />
