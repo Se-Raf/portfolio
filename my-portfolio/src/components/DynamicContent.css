@@ -1,0 +1,13 @@
+.dynamic-content-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dynamic-content-placeholder {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 40px;
+}
