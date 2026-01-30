@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  background-color: #221d23;
+  color: #e3e7d3;
 }
 
 body {
-  width: 70vw;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
