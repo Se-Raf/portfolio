@@ -1,40 +1,40 @@
 const Menu = ({ onSelect, activeSection }) => {
     return (
         <nav className="menu">
-            <ul className="menu-list d-flex justify-content-between">
-                <li>
+            <div className="menu-list d-flex justify-content-between">
+                <div>
                     <button
                         className={`menu-button ${activeSection === 'experience' ? 'active' : ''}`}
                         onClick={() => onSelect('experience')}
                     >
                         Experience
                     </button>
-                </li>
-                <li>
+                </div>
+                <div>
                     <button
                         className={`menu-button ${activeSection === 'projects' ? 'active' : ''}`}
                         onClick={() => onSelect('projects')}
                     >
                         Projects
                     </button>
-                </li>
-                <li>
+                </div>
+                <div>
                     <button
-                        className={`menu-button ${activeSection === 'tech-stack' ? 'active' : ''}`}
+                        className={`menu-button     ${activeSection === 'tech-stack' ? 'active' : ''}`}
                         onClick={() => onSelect('tech-stack')}
                     >
                         Tech Stack
                     </button>
-                </li>
-                <li>
+                </div>
+                <div>
                     <button
                         className={`menu-button ${activeSection === 'certifications' ? 'active' : ''}`}
                         onClick={() => onSelect('certifications')}
                     >
                         Certifications
                     </button>
-                </li>
-            </ul>
+                </div>
+            </div>
         </nav>
     );
 };
