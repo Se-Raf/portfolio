@@ -5,6 +5,8 @@ import TechStackMenu from '../components/TechStackMenu';
 import DynamicContent from '../components/DynamicContent';
 import "./Homepage.css"
 
+import Resume from '../assets/files/Resume/260201.txt';
+
 const Homepage = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const activeSection = searchParams.get('section') || 'experience';
@@ -20,6 +22,10 @@ const Homepage = () => {
                 <h1>Rafael C. Senados</h1>
                 <br />
                 <h2>Software Engineer</h2>
+                <br />
+                <a href={Resume} download="Senados-Rafael-Resume" className="download-resume-btn">
+                    <button>Download Resume</button>
+                </a>
             </div>
             <TechStackMenu />
             <div className="homepage-content">
