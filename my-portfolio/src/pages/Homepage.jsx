@@ -5,7 +5,7 @@ import TechStackMenu from '../components/TechStackMenu';
 import DynamicContent from '../components/DynamicContent';
 import "./Homepage.css"
 
-import Resume from '../assets/files/Resume/260201.txt';
+import Resume from '../assets/files/Resume/260202.pdf';
 
 const Homepage = () => {
     const [searchParams, setSearchParams] = useSearchParams();
