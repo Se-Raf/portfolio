@@ -1,0 +1,41 @@
+.education-summary {
+    padding: 20px;
+}
+
+.education-summary .summary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-summary .summary-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+.education-summary .summary-image {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.education-summary h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.education-summary p {
+    margin: 5px 0;
+}
+
+.education-summary .dates {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #777;
+    display: flex;
+    gap: 15px;
+}

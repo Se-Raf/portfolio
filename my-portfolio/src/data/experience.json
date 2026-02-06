@@ -1,23 +1,46 @@
 [
     {
         "Image": "https://placehold.co/600x400/png",
-        "Title": "Senior Software Engineer",
-        "Company": "Accenture",
-        "Year": "2022-Present",
-        "Description": "Developing high-performance web applications using modern technologies.",
+        "Title": "Junior API/Web Developer",
+        "Company": "TOP.ph | The Orange Company Inc.",
+        "Year": "June 2022 - Present",
+        "Description": "Responsible for designing and developing secure and efficient APIs for the TOP.ph Mobile Application.",
         "Responsibilities": [
-            "Designed and Develop API",
-            "Maintain Security and Configurations"
+            "Ensured secure and reliable user authentication by managing secret key configurations, monitoring identity services, and resolving authentication-related issues.",
+            "Integrated third party APIs.",
+            "Integrated performance optimization tools such as Amazon SQS, MQTT, and Redis to improve system responsiveness and scalability.",
+            "Manages internal NuGet packages to centralize secure business logic and standardized connection methods across company projects.",
+            "Performed application updates, release validations, and deployment troubleshooting within Azure DevOps and Docker-based workflows."
         ],
         "TechStack": [
             "C#",
-            ".Net",
+            "Asp.Net",
             "SQL",
-            "MongoDb",
-            "Javascript",
-            "PHP"
+            "Redis",
+            "Amazon SQS",
+            "MQTT",
+            "Azure DevOps",
+            "Docker"
         ],
         "CreatedDate": "2024-01-01",
-        "ModifiedDate": "2025-01-01"
+        "ModifiedDate": "2026-02-06"
+    },
+    {
+        "Image": "https://placehold.co/600x400/png",
+        "Title": "API/Web Developer Intern",
+        "Company": "TOP.ph | The Orange Company Inc.",
+        "Year": "April - June 2022",
+        "Description": "Learned basic structures and practices that match the needs of the company.",
+        "Responsibilities": [
+            "Assisted data related tasks and testing application.",
+            "Contributed in developing internal web applications."
+        ],
+        "TechStack": [
+            "C#",
+            "Asp.Net",
+            "SQL"
+        ],
+        "CreatedDate": "2024-01-01",
+        "ModifiedDate": "2026-02-06"
     }
 ]

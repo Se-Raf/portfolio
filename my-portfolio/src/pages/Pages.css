@@ -1,0 +1,21 @@
+.contact-page,
+.about-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-details {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.about-page p {
+    line-height: 1.6;
+    margin-top: 20px;
+}
