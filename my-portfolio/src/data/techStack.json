@@ -1,18 +1,74 @@
 [
   {
-    "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    "Title": "React",
-    "Year": "2023",
-    "Description": "A JavaScript library for building user interfaces.",
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "C#",
+    "Year": "2022",
+    "Description": "A modern, object-oriented, and type-safe programming language.",
     "CreatedDate": "2024-01-01",
-    "ModifiedDate": "2024-01-01"
+    "ModifiedDate": "2026-02-06"
   },
   {
-    "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png",
-    "Title": "Node.js",
-    "Year": "2023",
-    "Description": "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "PHP",
+    "Year": "2022",
+    "Description": "A popular general-purpose scripting language that is especially suited to web development.",
     "CreatedDate": "2024-01-01",
-    "ModifiedDate": "2024-01-01"
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "Asp.Net",
+    "Year": "2022",
+    "Description": "A developer platform for building apps for web, mobile, desktop, games, and IoT.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "SQL",
+    "Year": "2022",
+    "Description": "Domain-specific language used in programming and designed for managing data.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "JavaScript",
+    "Year": "2022",
+    "Description": "The programming language of the Web.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "Laravel",
+    "Year": "2022",
+    "Description": "A PHP web application framework with expressive, elegant syntax.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "Blazor",
+    "Year": "2022",
+    "Description": "A framework for building interactive web UIs using C# instead of JavaScript.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "MongoDB",
+    "Year": "2022",
+    "Description": "A source-available cross-platform document-oriented database program.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
+  },
+  {
+    "Image": "https://placehold.co/600x400/png",
+    "Title": "Redis",
+    "Year": "2022",
+    "Description": "The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.",
+    "CreatedDate": "2024-01-01",
+    "ModifiedDate": "2026-02-06"
   }
 ]

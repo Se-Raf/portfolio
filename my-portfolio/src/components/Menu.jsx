@@ -34,6 +34,14 @@ const Menu = ({ onSelect, activeSection }) => {
                         Certifications
                     </button>
                 </div>
+                <div>
+                    <button
+                        className={`menu-button ${activeSection === 'education' ? 'active' : ''}`}
+                        onClick={() => onSelect('education')}
+                    >
+                        Education
+                    </button>
+                </div>
             </div>
         </nav>
     );

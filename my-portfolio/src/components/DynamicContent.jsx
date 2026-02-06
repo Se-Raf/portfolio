@@ -2,6 +2,7 @@ import ExperienceSummary from './ExperienceSummary';
 import ProjectSummary from './ProjectSummary';
 import TechStackSummary from './TechStackSummary';
 import CertificationSummary from './CertificationSummary';
+import EducationSummary from './EducationSummary';
 import './DynamicContent.css';
 
 const DynamicContent = ({ activeSection }) => {
@@ -15,6 +16,8 @@ const DynamicContent = ({ activeSection }) => {
                 return <TechStackSummary />;
             case 'certifications':
                 return <CertificationSummary />;
+            case 'education':
+                return <EducationSummary />;
             default:
                 return (
                     <div className="dynamic-content-placeholder">

@@ -6,6 +6,7 @@ import Project from './pages/Project';
 import TechStack from './pages/TechStack';
 import Contact from './pages/Contact';
 import Certification from './pages/Certification';
+import Education from './pages/Education';
 import NotFoundPage from './pages/NotFoundPage';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/tech-stack" element={<TechStack />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/certifications" element={<Certification />} />
+        <Route path="/education" element={<Education />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
